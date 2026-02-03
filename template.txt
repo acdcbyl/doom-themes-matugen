@@ -70,7 +70,7 @@ determine the exact padding."
    (red        '("{{colors.red.default.hex}}" "{{colors.red.default.hex}}" "red"          ))
    (orange     '("{{colors.orange.default.hex}}" "{{colors.orange.default.hex}}" "brightred"    ))
    (green      '("{{colors.tertiary.default.hex}}" "{{colors.tertiary.default.hex}}" "green"        ))
-   (teal       '("{{colors.teal.default.hex}}" "{{colors.dark_cyan.default.hex}}" "brightgreen"  ))
+   (teal       '("{{colors.teal.default.hex}}" "{{colors.teal.default.hex}}" "brightgreen"  ))
    (yellow     '("{{colors.yellow.default.hex}}" "{{colors.yellow.default.hex}}" "yellow"       ))
    (blue       '("{{colors.primary.default.hex}}" "{{colors.primary.default.hex}}" "brightblue"   ))
    (dark-blue  '("{{colors.primary_fixed_dim.default.hex}}" "{{colors.primary_fixed_dim.default.hex}}" "blue"         ))
