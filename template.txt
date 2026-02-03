@@ -54,6 +54,7 @@ determine the exact padding."
   ;; name        default   256       16
   ((bg         '("{{colors.surface.default.hex}}" nil       nil            ))
    (bg-alt     '("{{colors.surface_dim.default.hex}}" nil       nil            ))
+   (bg-bright  '("{{colors.surface_bright.default.hex}}" nil       nil            ))
    (base0      '("{{colors.surface_dim.default.hex}}" "black" "black"))
    (base1      '("{{colors.surface.default.hex}}" "{{colors.surface.default.hex}}" "brightblack"))
    (base2      '("{{colors.surface_container_low.default.hex}}" "{{colors.surface_container_low.default.hex}}" "brightblack"))
@@ -70,13 +71,14 @@ determine the exact padding."
    (red        '("{{colors.red.default.hex}}" "{{colors.red.default.hex}}" "red"          ))
    (orange     '("{{colors.orange.default.hex}}" "{{colors.orange.default.hex}}" "brightred"    ))
    (green      '("{{colors.tertiary.default.hex}}" "{{colors.tertiary.default.hex}}" "green"        ))
-   (teal       '("{{colors.teal.default.hex}}" "{{colors.teal.default.hex}}" "brightgreen"  ))
+   (teal       '("{{colors.pink.default.hex}}" "{{colors.pink.default.hex}}" "brightgreen"  ))
    (yellow     '("{{colors.yellow.default.hex}}" "{{colors.yellow.default.hex}}" "yellow"       ))
    (blue       '("{{colors.primary.default.hex}}" "{{colors.primary.default.hex}}" "brightblue"   ))
+   (blue-fg    '("{{colors.on_primary.default.hex}}" "{{colors.on_primary.default.hex}}" "brightblue"   ))
    (dark-blue  '("{{colors.primary_fixed_dim.default.hex}}" "{{colors.primary_fixed_dim.default.hex}}" "blue"         ))
    (magenta    '("{{colors.magenta.default.hex}}" "{{colors.magenta.default.hex}}" "magenta"      ))
    (violet     '("{{colors.violet.default.hex}}" "{{colors.violet.default.hex}}" "brightmagenta"))
-   (cyan       '("{{colors.cyan.default.hex}}" "{{colors.cyan.default.hex}}" "brightcyan"   ))
+   (cyan       '("{{colors.tertiary.default.hex}}" "{{colors.tertiary.default.hex}}" "brightcyan"   ))
    (dark-cyan  '("{{colors.dark_cyan.default.hex}}" "{{colors.dark_cyan.default.hex}}" "cyan"         ))
 
    ;; face categories -- required for all themes

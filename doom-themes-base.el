@@ -321,7 +321,7 @@
     (company-box-candidate :foreground fg)
     ;;;; corfu
     (corfu-default :inherit 'tooltip)
-    (corfu-current :background bg :foreground fg)
+    (corfu-current :background bg-bright :foreground fg)
     ;;;; circe
     (circe-fool :foreground doc-comments)
     (circe-highlight-nick-face :weight 'bold :foreground constants)
@@ -1578,7 +1578,7 @@
     ((xref-line-number &inherit compilation-line-number))
     ((xref-match &inherit match)))
     ;;;; --- END Package faces ------------------
-    
+  
   "TODO")
 
 ;;;; --- Package variables ------------------

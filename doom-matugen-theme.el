@@ -52,31 +52,33 @@ determine the exact padding."
   :background-mode 'dark
 
   ;; name        default   256       16
-  ((bg         '("#131316" nil       nil            ))
-   (bg-alt     '("#131316" nil       nil            ))
-   (base0      '("#131316" "black" "black"))      ; 最黑
-   (base1      '("#131316" "#1e1e1e" "brightblack"))  ; 很接近 bg
-   (base2      '("#1b1b1f" "#2e2e2e" "brightblack"))
-   (base3      '("#1f1f23" "#262626" "brightblack"))
-   (base4      '("#45464f" "#3f3f3f" "brightblack"))  ; 中灰，常用作 subtle lines
-   (base5      '("#8f909a" "#525252" "brightblack"))          ; comments / muted text 基础
-   (base6      '("#c6c6d0" "#6b6b6b" "brightblack")) ; inactive / dim text
-   (base7      '("#e4e2e6" "#979797" "brightblack"))       ; 稍亮的灰文字
-   (base8      '("#303034" "#dfdfdf" "white"))
-   (fg         '("#e4e2e6" "#e4e2e6" "#e4e2e6"        ))
-   (fg-alt     '("#c6c6d0" "#c6c6d0" "brightwhite"  ))
+  ((bg         '("#181211" nil       nil            ))
+   (bg-alt     '("#181211" nil       nil            ))
+   (bg-bright  '("#3f3736" nil       nil            ))
+   (base0      '("#181211" "black" "black"))
+   (base1      '("#181211" "#181211" "brightblack"))
+   (base2      '("#201a19" "#201a19" "brightblack"))
+   (base3      '("#251e1d" "#251e1d" "brightblack"))
+   (base4      '("#534340" "#534340" "brightblack"))
+   (base5      '("#a08c88" "#a08c88" "brightblack"))
+   (base6      '("#d8c2bd" "#d8c2bd" "brightblack"))
+   (base7      '("#ede0dd" "#ede0dd" "brightblack"))
+   (base8      '("#362f2d" "#362f2d" "white"))
+   (fg         '("#ede0dd" "#ede0dd" "#ede0dd"        ))
+   (fg-alt     '("#d8c2bd" "#d8c2bd" "brightwhite"  ))
 
    (grey       base4)
-   (red        '("#ffaed9" "#ffaed9" "red"          ))
-   (orange     '("#ffb59d" "#ffb59d" "brightred"    ))
-   (green      '("#74daa3" "#74daa3" "green"        ))
-   (teal       '("#4cd9df" "#8fcdff" "brightgreen"  ))
+   (red        '("#ffb3b3" "#ffb3b3" "red"          ))
+   (orange     '("#ffb597" "#ffb597" "brightred"    ))
+   (green      '("#dbc58c" "#dbc58c" "green"        ))
+   (teal       '("#ffafd3" "#ffafd3" "brightgreen"  ))
    (yellow     '("#ffb951" "#ffb951" "yellow"       ))
-   (blue       '("#b5c4ff" "#b5c4ff" "brightblue"   ))
-   (dark-blue  '("#b5c4ff" "#b5c4ff" "blue"         ))
-   (magenta    '("#c9bfff" "#c9bfff" "magenta"      ))
-   (violet     '("#ffafd1" "#ffafd1" "brightmagenta"))
-   (cyan       '("#5fd4fe" "#5fd4fe" "brightcyan"   ))
+   (blue       '("#ffb4a3" "#ffb4a3" "brightblue"   ))
+   (blue-fg    '("#5e1606" "#5e1606" "brightblue"   ))
+   (dark-blue  '("#ffb4a3" "#ffb4a3" "blue"         ))
+   (magenta    '("#efb0ff" "#efb0ff" "magenta"      ))
+   (violet     '("#ffb3b1" "#ffb3b1" "brightmagenta"))
+   (cyan       '("#dbc58c" "#dbc58c" "brightcyan"   ))
    (dark-cyan  '("#8fcdff" "#8fcdff" "cyan"         ))
 
    ;; face categories -- required for all themes
