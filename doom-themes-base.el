@@ -291,12 +291,12 @@
     (calfw-toolbar-button-on-face  :foreground blue                     :weight 'bold             :inherit 'variable-pitch)
     (calfw-toolbar-face)
     ;;;; centaur-tabs
-    ((centaur-tabs-default &inherit tab-bar) :box nil)
-    ((centaur-tabs-selected &inherit tab-bar) :box nil)
-    ((centaur-tabs-unselected &inherit tab-bar-tab-inactive) :box nil)
-    (centaur-tabs-selected-modified   :background bg-bright :foreground teal)
-    (centaur-tabs-unselected-modified :background bg-alt :foreground teal)
-    (centaur-tabs-active-bar-face :background (if (bound-and-true-p -modeline-bright) modeline-bg highlight))
+    (centaur-tabs-default                 :background bg-bright :foreground fg-alt)
+    (centaur-tabs-selected                :background bg :foreground fg :box nil)
+    (centaur-tabs-unselected              :background bg-bright :foreground fg-alt :box nil)
+    (centaur-tabs-selected-modified       :background bg :foreground teal)
+    (centaur-tabs-unselected-modified     :background bg-bright :foreground teal)
+    (centaur-tabs-active-bar-face         :background (if (bound-and-true-p -modeline-bright) modeline-bg highlight))
     (centaur-tabs-modified-marker-selected
      :foreground (if (bound-and-true-p -modeline-bright) modeline-bg highlight)
      :inherit 'centaur-tabs-selected)

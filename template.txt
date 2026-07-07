@@ -146,8 +146,9 @@ determine the exact padding."
                  ((line-number-current-line &override) :foreground base7)
                  ((font-lock-comment-face &override)
                   :background (if doom-matugen-comment-bg (doom-lighten bg 0.05) 'unspecified))
-                 ((tab-line &override) :background modeline-bg :foreground blue)
-                 ((tab-line-tab-inactive &override) :foreground dark-blue)
+                 ((tab-line &override) :background bg-bright :foreground fg)
+                 ((tab-line-tab &override) :background bg :foreground fg)
+                 ((tab-line-tab-inactive &override) :background bg-bright :foreground fg-alt)
                  (mode-line
                   :background modeline-bg :foreground modeline-fg
                   :box (if -modeline-pad `(:line-width ,-modeline-pad :color ,modeline-bg)))
