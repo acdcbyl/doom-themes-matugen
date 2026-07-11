@@ -194,9 +194,15 @@ determine the exact padding."
    ;;;; vimish-fold
                  ((vimish-fold-overlay &override) :inherit 'font-lock-comment-face :background base3 :weight 'light)
                   ((vimish-fold-fringe &override)  :foreground teal)
-   ;;;; lambda-line
-                  (lambda-line-evil-normal :background blue :foreground blue-fg :weight 'bold
-                                           :box `(:line-width 1 :color ,blue :style nil))
+    ;;;; lambda-line
+                   (lambda-line-active-status-RO :foreground yellow)
+                   (lambda-line-active-status-RW :foreground green)
+                   (lambda-line-active-status-MD :foreground red)
+                   (lambda-line-inactive-status-RO :foreground base5)
+                   (lambda-line-inactive-status-RW :foreground base5)
+                   (lambda-line-inactive-status-MD :foreground base5)
+                   (lambda-line-evil-normal :background blue :foreground blue-fg :weight 'bold
+                                            :box `(:line-width 1 :color ,blue :style nil))
                   (lambda-line-evil-insert :background green :foreground green-fg :weight 'bold
                                            :box `(:line-width 1 :color ,green :style nil))
                   (lambda-line-evil-visual :background pink :foreground pink-fg :weight 'bold
