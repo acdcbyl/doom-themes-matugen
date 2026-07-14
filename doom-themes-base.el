@@ -786,7 +786,7 @@
     ;;;; hl-fill-column-face
     (hl-fill-column-face :inherit '(hl-line shadow))
     ;;;; hl-line (built-in)
-    (hl-line :background bg-alt :extend t)
+    (hl-line :background bg-bright :extend t)
     ;;;; hl-todo
     (hl-todo :foreground red :weight 'bold)
     ;;;; hlinum
