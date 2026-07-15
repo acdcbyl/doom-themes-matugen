@@ -845,7 +845,7 @@
     ;;;; selectrum
     (selectrum-current-candidate :background region :extend t)
     ;;;; vertico
-    (vertico-current :background base0 :extend t)
+    (vertico-current :background bg-bright :extend t)
     ;;;; vertico-posframe
     ;;(vertico-posframe :inherit 'default)
     (vertico-posframe-border :background grey)
