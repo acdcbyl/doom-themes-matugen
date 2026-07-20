@@ -88,7 +88,7 @@ determine the exact padding."
 
                  ;; face categories -- required for all themes
                  (highlight      blue)
-                 (vertical-bar   (doom-darken base1 0.2))
+                 (vertical-bar   (doom-darken base7 0.2))
                  (selection      dark-blue)
                  (builtin        blue)
                  (comments       (if doom-matugen-brighter-comments dark-cyan (doom-lighten base5 0.2)))
@@ -201,6 +201,7 @@ determine the exact padding."
                    (lambda-line-inactive-status-RO :foreground base5)
                    (lambda-line-inactive-status-RW :foreground base5)
                    (lambda-line-inactive-status-MD :foreground base5)
+                   (lambda-line-inactive :background modeline-bg-inactive)
                    (lambda-line-evil-normal :background blue :foreground blue-fg :weight 'bold
                                             :box `(:line-width 1 :color ,blue :style nil))
                    (lambda-line-evil-insert :background green :foreground green-fg :weight 'bold
@@ -223,3 +224,4 @@ determine the exact padding."
                 ())
 
 ;;; doom-matugen-theme.el ends here
+
